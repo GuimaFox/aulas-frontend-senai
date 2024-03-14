@@ -1,0 +1,13 @@
+footer {
+    background-color: blueviolet;
+    grid-area: rodape;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .texto-copyright{
+
+    color:aliceblue
+  }
