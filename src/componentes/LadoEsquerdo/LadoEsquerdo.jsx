@@ -1,8 +1,6 @@
-import './LadoEsquerdo.css'
+import './LadoEsquerdo.css';
 
 const LadoEsquerdo = () => {
-
-    return <header>LadoEsquerdo</header>;
+  return <aside>LadoEsquerdo</aside>;
 };
-
 export default LadoEsquerdo;

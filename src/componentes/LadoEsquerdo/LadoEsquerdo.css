@@ -1,4 +1,4 @@
 aside {
-    background-color: bisque;
-    grid-area: ladoEsquerdo;
-  }
+  background-color: var(--cor-primaria-clara);
+  grid-area: ladoEsquerdo;
+}

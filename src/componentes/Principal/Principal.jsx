@@ -1,8 +1,13 @@
-import './Principal.css'
+
+import BotaoCustomizado from '../BotaoCustomizado/BotaoCustomizado';
+import './Principal.css';
 
 const Principal = () => {
+  return <main>
+    
+    <BotaoCustomizado/>
 
-    return <header>Principal</header>;
+  </main>;
 };
 
 export default Principal;
