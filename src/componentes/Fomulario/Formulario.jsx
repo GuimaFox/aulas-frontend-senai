@@ -36,7 +36,7 @@ return (
         <input type = 'number' value = {numero1} onChange={(event)=>setNumero1(+event.target.value)} placeholder='Número 1' />
         +
         <input type = 'number' value = {numero2} onChange={(event)=>setNumero2(+event.target.value)} placeholder='Número 2' />
-        
+        =
         <button onClick={calcular}> Calcular</button>
 
       </div>

@@ -4,6 +4,7 @@ import Formulario from '../Fomulario/Formulario';
 import BotaoCustomizado from '../BotaoCustomizado/BotaoCustomizado';
 import ListaProdutos from '../ListaProdutos/ListaProdutos';
 import './Principal.css';
+import ListaCompras from '../ListaCompras/ListaCompras';
 
 const Principal = () => {
 const[exemplo, setExemplo] = React.useState('');
@@ -21,12 +22,16 @@ const[exemplo, setExemplo] = React.useState('');
     <BotaoCustomizado tipo='' onClick = {()=> setExemplo('formulario')}>
       Formulário
     </BotaoCustomizado>
+    <BotaoCustomizado tipo='' onClick = {()=> setExemplo('listaCompras')}>
+      Lista de Compras
+    </BotaoCustomizado>
 
     </nav>
 
     {exemplo === 'listaProdutos' && <ListaProdutos />}
     {exemplo === 'botaoContador' && <BotaoContador />}
     {exemplo === 'formulario' && <Formulario />}
+    {exemplo === 'listaCompras' && <ListaCompras />}
     
     {/*<BotaoCustomizado
      tipo='primario'
